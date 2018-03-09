@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+}
+body{
+background-color: lightblue;
+padding: 30px;
+font-family: 'Patua One';
+font-size: 25px;
+}
+
+h1{
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 70px;
+	text-align: center;
+	position: center;
+}
+p::first-letter {
+    color: blue;
+    font-size: xx-large;
+}
+
+ul {
+    background: #ff9999;
+    padding: 20px;
+}
+
+
+
+ul li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+    margin: 5px;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+ .centrado{
+	margin:10px auto;
+	display:block;
+    }
